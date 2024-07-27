@@ -7,7 +7,7 @@
 //*   author : 肥肠教主-LuoYang
 //*   deta: 2024/07/19
 //*   subject:
-//*   使用寄存器开发-创建文件-Start-User 文件的形式
+//*   使用寄存器开发-创建文件-Start-User 文件的形式 Test文件
 //*
 /**********************************************/
 int main(void)
@@ -24,19 +24,12 @@ int main(void)
 	 GPIO_PC13.GPIO_Pin=GPIO_Pin_13;
 	 GPIO_PC13.GPIO_Mode=GPIO_Mode_Out_PP;
 	 GPIO_PC13.GPIO_Speed=GPIO_Speed_50MHz;
-	
 	 GPIO_Init(GPIOC,&GPIO_PC13);
-	
-	 
-
 	 GPIO_PA0.GPIO_Mode=GPIO_Mode_Out_PP;
 	 GPIO_PA0.GPIO_Pin=GPIO_Pin_0;
 	 GPIO_PA0.GPIO_Speed=GPIO_Speed_50MHz;
-	
-
 	 GPIO_Init(GPIOA,&GPIO_PA0);
 	//设立高点平
-
 	 while(1)
 	 {
 		 //读写成功
