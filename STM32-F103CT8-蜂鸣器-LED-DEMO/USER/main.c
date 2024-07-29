@@ -21,7 +21,8 @@ int main()
 	 GPIO_PC13.GPIO_Mode=GPIO_Mode_Out_PP;
 	 GPIO_PC13.GPIO_Speed=GPIO_Speed_50MHz;
 	 GPIO_Init(GPIOC,&GPIO_PC13);
-	 GPIO_PA0.GPIO_Mode=GPIO_Mode_Out_PP;
+	 //
+	 GPIO_PA0.GPIO_Mode=GPIO_Mode_Out_OD;
 	 GPIO_PA0.GPIO_Pin=GPIO_Pin_0;
 	 GPIO_PA0.GPIO_Speed=GPIO_Speed_50MHz;
 	 GPIO_Init(GPIOA,&GPIO_PA0);
