@@ -29,3 +29,4 @@
 .\objects\main.o: .\DRIVER\inc\stm32f10x_wwdg.h
 .\objects\main.o: .\DRIVER\inc\misc.h
 .\objects\main.o: .\SYSTEM\delay\delay.h
+.\objects\main.o: .\SYSTEM\led\led.h

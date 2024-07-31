@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS;.\DRIVER\inc;.\DRIVER\src;.\STARTUP;.\SYSTEM;.\USER;.\SYSTEM\delay</IncludePath>
+              <IncludePath>.\CMSIS;.\DRIVER\inc;.\DRIVER\src;.\STARTUP;.\SYSTEM;.\USER;.\SYSTEM\delay;.\SYSTEM\led;.\SYSTEM\beep</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -569,9 +569,34 @@
           <GroupName>SYSTEM</GroupName>
           <Files>
             <File>
-              <FileName>Delay.c</FileName>
+              <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\SYSTEM\delay\Delay.c</FilePath>
+              <FilePath>.\SYSTEM\led\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\SYSTEM\led\led.h</FilePath>
+            </File>
+            <File>
+              <FileName>beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SYSTEM\beep\beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>beep.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\SYSTEM\beep\beep.h</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SYSTEM\delay\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\SYSTEM\delay\delay.h</FilePath>
             </File>
           </Files>
         </Group>

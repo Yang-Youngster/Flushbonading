@@ -1,4 +1,4 @@
-.\objects\delay.o: SYSTEM\delay\Delay.c
+.\objects\delay.o: SYSTEM\delay\delay.c
 .\objects\delay.o: .\CMSIS\stm32f10x.h
 .\objects\delay.o: .\CMSIS\core_cm3.h
 .\objects\delay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
