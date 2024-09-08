@@ -30,3 +30,4 @@
 .\objects\main.o: .\DRIVER\inc\misc.h
 .\objects\main.o: .\SYSTEM\delay\delay.h
 .\objects\main.o: .\SYSTEM\led\led.h
+.\objects\main.o: .\SYSTEM\beep\beep.h

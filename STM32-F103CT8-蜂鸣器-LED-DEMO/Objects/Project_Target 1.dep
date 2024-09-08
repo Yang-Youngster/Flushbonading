@@ -699,7 +699,7 @@ I (.\DRIVER\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (.\DRIVER\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\DRIVER\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\DRIVER\inc\misc.h)(0x4D783BB4)
-F (.\USER\main.c)(0x66AA4A02)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\DRIVER\inc -I.\DRIVER\src -I.\STARTUP -I.\SYSTEM -I.\USER -I.\SYSTEM\delay -I.\SYSTEM\led -I.\SYSTEM\beep-I B:\keil_5_PKG\STM32-F103CT8-·äÃùÆ÷-LED-DEMO\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\USER\main.c)(0x66DDBDD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\DRIVER\inc -I.\DRIVER\src -I.\STARTUP -I.\SYSTEM -I.\USER -I.\SYSTEM\delay -I.\SYSTEM\led -I.\SYSTEM\beep-I B:\keil_5_PKG\STM32-F103CT8-·äÃùÆ÷-LED-DEMO\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -730,6 +730,7 @@ I (.\DRIVER\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\DRIVER\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\delay\delay.h)(0x66AA1BCD)
 I (.\SYSTEM\led\led.h)(0x66AA5DC1)
+I (.\SYSTEM\beep\beep.h)(0x66DDBDE5)
 F (.\USER\stm32f10x_it.c)(0x4D99A59E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\DRIVER\inc -I.\DRIVER\src -I.\STARTUP -I.\SYSTEM -I.\USER -I.\SYSTEM\delay -I.\SYSTEM\led -I.\SYSTEM\beep-I B:\keil_5_PKG\STM32-F103CT8-·äÃùÆ÷-LED-DEMO\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (USER\stm32f10x_it.h)(0x4D99A59E)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -821,7 +822,7 @@ I (.\DRIVER\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\DRIVER\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\DRIVER\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\delay\delay.h)(0x66AA1BCD)
-F (.\SYSTEM\beep\beep.h)(0x66AA5DC1)()
+F (.\SYSTEM\beep\beep.h)(0x66DDBDE5)()
 F (.\SYSTEM\delay\delay.c)(0x66A67447)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\DRIVER\inc -I.\DRIVER\src -I.\STARTUP -I.\SYSTEM -I.\USER -I.\SYSTEM\delay -I.\SYSTEM\led -I.\SYSTEM\beep-I B:\keil_5_PKG\STM32-F103CT8-·äÃùÆ÷-LED-DEMO\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)

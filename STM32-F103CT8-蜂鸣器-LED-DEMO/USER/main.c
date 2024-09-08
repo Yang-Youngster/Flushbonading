@@ -1,6 +1,7 @@
 #include <stm32f10x.h>
 #include <delay.h>
 #include <led.h>
+#include <beep.h>
 
 /*********************************************/
 //*   实验平台：STM32F103CT8
@@ -18,6 +19,7 @@ int main()
 	while(1)
 	{
 		waterLed();
+		beepTalk();
 	}
 }
 
