@@ -20,7 +20,7 @@ void initBEEPPort(uint32_t GPIO_APB_X ,GPIO_TypeDef * GPIO_X)
 	  //使能时钟
 	  RCC_APB2PeriphClockCmd(GPIO_APB_X,ENABLE);
 	
-      GPIO_InitStruct.GPIO_Mode=GPIO_Mode_Out_PP;    //默认推挽输出
+    GPIO_InitStruct.GPIO_Mode=GPIO_Mode_IPU;    //默认推挽输出
 	  GPIO_InitStruct.GPIO_Pin=GPIO_Pin_15;         //开启 GPIO_X的全部端口
 	  GPIO_InitStruct.GPIO_Speed=GPIO_Speed_50MHz;
 	  GPIO_Init(GPIO_X,&GPIO_InitStruct);

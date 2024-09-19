@@ -1,7 +1,7 @@
 .\objects\lighting_sensor.o: SYSTEM\sensor\lighting_sensor.c
 .\objects\lighting_sensor.o: .\CMSIS\stm32f10x.h
 .\objects\lighting_sensor.o: .\CMSIS\core_cm3.h
-.\objects\lighting_sensor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lighting_sensor.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\lighting_sensor.o: .\CMSIS\system_stm32f10x.h
 .\objects\lighting_sensor.o: .\USER\stm32f10x_conf.h
 .\objects\lighting_sensor.o: .\DRIVER\inc\stm32f10x_adc.h

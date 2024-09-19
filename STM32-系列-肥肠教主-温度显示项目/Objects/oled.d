@@ -1,7 +1,7 @@
 .\objects\oled.o: SYSTEM\oled\oled.c
 .\objects\oled.o: .\CMSIS\stm32f10x.h
 .\objects\oled.o: .\CMSIS\core_cm3.h
-.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\oled.o: .\CMSIS\system_stm32f10x.h
 .\objects\oled.o: .\USER\stm32f10x_conf.h
 .\objects\oled.o: .\DRIVER\inc\stm32f10x_adc.h

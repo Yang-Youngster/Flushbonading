@@ -14,8 +14,10 @@
 /**********************************************/
 int main()
 {
-	//初始化
+	//初始化-LED
 	initLEDPort(RCC_APB2Periph_GPIOA,GPIOA);
+	//初始化-BEEP
+	initLEDPort(RCC_APB2Periph_GPIOB,GPIOB);
 	while(1)
 	{
 		waterLed();
