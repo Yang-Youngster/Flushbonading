@@ -28,3 +28,4 @@
 .\objects\oled.o: .\DRIVER\inc\stm32f10x_usart.h
 .\objects\oled.o: .\DRIVER\inc\stm32f10x_wwdg.h
 .\objects\oled.o: .\DRIVER\inc\misc.h
+.\objects\oled.o: SYSTEM\oled\OLED_Font.h

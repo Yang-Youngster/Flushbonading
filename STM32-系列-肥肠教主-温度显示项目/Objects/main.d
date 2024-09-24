@@ -33,3 +33,4 @@
 .\objects\main.o: .\SYSTEM\led\led.h
 .\objects\main.o: .\SYSTEM\sensor\lighting_sensor.h
 .\objects\main.o: .\SYSTEM\beep\beep.h
+.\objects\main.o: .\SYSTEM\oled\oled.h

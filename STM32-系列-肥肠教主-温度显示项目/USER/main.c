@@ -4,6 +4,7 @@
 #include <led.h>
 #include <lighting_sensor.h>
 #include <beep.h>
+#include <oled.h>
 /*********************************************
 *   实验平台：STM32F103CT8
 *   library version: functino
@@ -30,10 +31,27 @@ int main()
 	
 	//初始化光敏
 	Lighting_sensor_init();
-	 
+	
+	OLED_Init();
+	
+	/*OLED显示*/
+	OLED_ShowChar(1, 1, 'A');				//1行1列显示字符A
+	
+	OLED_ShowString(1, 3, "HelloWorld!");	//1行3列显示字符串HelloWorld!
+	
+	OLED_ShowNum(2, 1, 12345, 5);			//2行1列显示十进制数字12345，长度为5
+	
+	OLED_ShowSignedNum(2, 7, -66, 2);		//2行7列显示有符号十进制数字-66，长度为2
+	
+	OLED_ShowHexNum(3, 1, 0xAA55, 4);		//3行1列显示十六进制数字0xA5A5，长度为4
+	
+	OLED_ShowBinNum(4, 1, 0xAA55, 16);
+	
+	
+	
 	while(1)
 	{
-	uint8_t	temp=Get_Sensor_singal();
+	   uint8_t	temp=Get_Sensor_singal();
 		if(temp==1)
 		{
 				beepTalk();

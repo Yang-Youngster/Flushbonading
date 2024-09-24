@@ -29,10 +29,10 @@
 ".\objects\stm32f10x_it.o"
 ".\objects\delay.o"
 ".\objects\key.o"
-".\objects\oled.o"
 ".\objects\lighting_sensor.o"
 ".\objects\beep.o"
 ".\objects\led.o"
+".\objects\oled.o"
 --strict --scatter ".\Objects\Project.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
